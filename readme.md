@@ -1,0 +1,1 @@
+# A simple plugin that uses the APA ( Austrian Press Agency ) OTS API to search and import press releases
