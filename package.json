@@ -1,0 +1,39 @@
+{
+  "name": "apa-ots-importer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/plugin.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "scripts": {
+    "watch": "webpack --mode=development --watch --config webpack-config.js",
+    "build": "webpack --mode=production --config webpack-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gepopp/apa-ots-importer.git"
+  },
+  "author": "gerhard popp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gepopp/apa-ots-importer/issues"
+  },
+  "homepage": "https://github.com/gepopp/apa-ots-importer#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "lodash": "^4.17.21",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "alpinejs": "^3.12.2",
+    "axios": "^1.4.0",
+    "qs": "^6.11.2"
+  }
+}
